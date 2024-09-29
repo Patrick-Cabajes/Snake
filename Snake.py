@@ -121,7 +121,7 @@ def draw():
         canvas.create_rectangle(tile.x, tile.y, tile.x + TILE_SIZE, tile.y + TILE_SIZE, fill = "pink")
 
     if (game_over):
-        canvas.create_text(WINDOW_WIDTH/2, WINDOW_HEIGHT/2, font = "Helvitica 20", text = f"GAME OVER: {score}", fill = "red")
+        canvas.create_text(WINDOW_WIDTH/2, WINDOW_HEIGHT/2, font = "Helvetica 20", text = f"GAME OVER: {score}", fill = "red")
     else:
         canvas.create_text(30, 20, font = "Helvetica 10", text = f"Score: {score}", fill = "white")
 
